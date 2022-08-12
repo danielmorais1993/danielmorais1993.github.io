@@ -1,19 +1,30 @@
  nav > div {
     text-align: center;
     border: 2px solid darkslateblue;
-    background-color:rgba(100, 200,50, 0.5);
-    opacity: 0.4;
+    background-color:rgba(8, 29, 123, 0.5);
+    opacity: 1.0;
     padding:1em;
     width: 2em;
     height:1em;
     margin: 4px 4px 4px 4px;
+    position:sticky;
+    text-decoration:none;
+    
 
 
 
 
 }
 
+div > a{
+    text-decoration: none;
+}
+
 body{
-    background-color: royalblue;
+    background-color: whitesmoke;
     opacity: 0.8;
+}
+
+img{
+
 }
