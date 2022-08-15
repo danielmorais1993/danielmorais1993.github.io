@@ -10,10 +10,6 @@
     position:sticky;
     text-decoration:none;
     
-
-
-
-
 }
 
 div > a{
@@ -21,10 +17,62 @@ div > a{
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: lightgray;
     opacity: 0.8;
+}
+.Description {
+    font-family: aboreto;
+    border: 2px solid salmon;
+    background-color: lightgrey;
+
+    
 }
 
 img{
+    border: 2px solid  black;
+    border-radius: 20% ;
+    margin-left: 40%;
+    transition-duration: 2s;
 
+
+}
+
+ .self-image :hover     {
+    border: 5px solid  green;
+    border-radius: 0;
+    cursor: pointer;
+    transition: 2s;
+    
+}
+
+div > h1 {
+    font-family: fantasy;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+}
+div > ul > li {
+    font-family: 'Times New Roman', Times, serif;
+    transition:2s;
+    padding: 1em ;
+    border: 2px solid grey;
+    background-color: aqua;
+  
+    text-align: center;
+   
+
+}
+
+ div > ul :hover {
+    
+    font-size: 20px;
+    font-weight: 300;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
+}
+
+footer > a {
+   padding: 2px 4px 2px 4px;
 }
