@@ -1,4 +1,7 @@
- nav > div {
+
+
+
+nav > section > div {
     text-align: center;
     border: 2px solid darkslateblue;
     background-color:rgba(8, 29, 123, 0.5);
@@ -7,14 +10,26 @@
     width: 2em;
     height:1em;
     margin: 4px 4px 4px 4px;
+    display: inline-block;
+    
     
     text-decoration:none;
     
 }
 
-div > a{
-    text-decoration: none;
+#divBusca {
+
+    
+    position: relative;
+    margin-left:  200px;
+    margin-top: -30px;
+
+
 }
+
+
+
+
 
 body{
     background-color: lightgray;
@@ -23,13 +38,15 @@ body{
 .Description {
     color: black;
     height: 300px;
-    width:300px;
+    width: 700px;
     font-family: aboreto;
     text-align: left;
     
     background-color: lightgrey;
     position: absolute;
-    margin-left: 0px;
+    margin-left: 0%;
+    background: transparent;
+    
     top:300px;
     transition-delay: 2s;
 }
