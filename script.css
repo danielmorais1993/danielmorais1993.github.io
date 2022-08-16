@@ -7,7 +7,7 @@
     width: 2em;
     height:1em;
     margin: 4px 4px 4px 4px;
-    position:sticky;
+    
     text-decoration:none;
     
 }
@@ -21,27 +21,58 @@ body{
     opacity: 0.8;
 }
 .Description {
+    color: black;
+    height: 300px;
+    width:300px;
     font-family: aboreto;
-    border: 2px solid salmon;
+    text-align: left;
+    
     background-color: lightgrey;
+    position: absolute;
+    margin-left: 0px;
+    top:300px;
+    transition-delay: 2s;
+}
+
+
+
 
     
-}
+
 
 img{
     border: 2px solid  black;
     border-radius: 20% ;
-    margin-left: 40%;
     transition-duration: 2s;
+    
+
+   
+   
+    
+   
+
 
 
 }
 
- .self-image :hover     {
+
+
+
+
+
+
+
+ .self-image   {
     border: 5px solid  green;
     border-radius: 0;
-    cursor: pointer;
-    transition: 2s;
+    background-color: lightblue;
+    transition:1s;
+    
+
+    margin-left: 50%;
+   
+    width:303px
+
     
 }
 
