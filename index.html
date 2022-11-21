@@ -1,114 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Web</title>
-
-    <link rel="stylesheet" href="script.css">
-    <nav>
-        <section>
-            <div>
-                <a href="https://github.com/danielmorais1993/">home</a>
-            </div>
-            <div>
-                <a href="https://github.com/danielmorais1993/Trybe-Exercicios">back</a>
-            </div>
-
-            <form action="https://www.google.com/search" name="q=">
-                <div id="divBusca">
-
-                    <input type="text" name="q" placeholder="Search on googgle" />
-                    <button>Search </button>
-                </div>
-
-                
-
-            </form>
-        </section>
-
-
-    </nav>
-    <hr>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Portfolio Web</title>
 </head>
-
-
 <body>
-    <div>
-        <h1>Portifolio Web</h1>
+    <header>
+        <nav>
+            <button id="menu-btn">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+            <button id="advance-btn">&#8592;</button>
+            <button id="back-btn">&#8594;</button>
+        </nav>
+        <h1>
+            <span style = "--i:1">P</span>  
+            <span style = "--i:2">o</span>
+            <span style = "--i:3">r</span>
+            <span style = "--i:4">t</span>
+            <span style = "--i:5">i</span>
+            <span style = "--i:6">f</span>
+            <span style = "--i:7">o</span>
+            <span style = "--i:8">l</span>
+            <span style = "--i:9">i</span>
+            <span style = "--i:10">o</span>
+            <span style = "--i:11">-</span>
+            <span style = "--i:12">W</span>
+            <span style = "--i:13">e</span>
+            <span style = "--i:14">b</span>
+        </h1>
+
+        <div id="img-logo">
+        
+        <img src="images logo/PngItem_2148362.png"  alt="">
     </div>
-    <div>
-        <h1>Daniel Morais De Oliveira</h1>
-    </div>
-    <div class="display-inline"></div>
+        </header>
+        <h1>Meus projetos</h1>
 
-    <div class="self-image">
-
-        <img src="https://user-images.githubusercontent.com/110565373/184293928-922c8fbc-ccd9-4a8b-a3d6-da384216ec41.jpeg"
-            href="https://www.tripadvisor.com.br/Attraction_Review-g303506-d2352425-Reviews-Barra_da_Tijuca_Beach-Rio_de_Janeiro_State_of_Rio_de_Janeiro.html"
-            alt="Essa foto de quando estava na praia da barra da tijuca" width="300px"> </img>
-        <br>
-    </div>
-
-    <div class="Description">Meu Nome é daniel Morais tenho 29 anos , <i>sou Oficial de Máquinas formado pela
-            EFOMM(Escola de Formaçào de
-            Oficiais de Marinha Mercante)</i> Brasileiro , Moro no Rio De Janeiro capital. Trabalhei por 2 anos em
-        navios e
-        plataformas e agora estou realizando um <b>sonho</b> de fazer uma transição na área de tecnologia. Estou muito
-        animado por esse início para um grande desafio</div>
-    </div>
-    <hr>
-
-
-    <div>
-
-        <h2>Dentre minhas habilidades estão:</h2>
-
-    </div>
-
-    <div>
-
-        <ul>
-            <h3>Conhecimento da carreira de tecnologia</h3>
-            <li>C# </li>
-            <li>Javascrypt</li>
-            <li>CSS</li>
-            <li>Python</li>
-            <li>Dotnet</li>
-            <li>Html5</li>
-
-        </ul>
-    </div>
-
-    <div>
-
-        <ul>
-
-            <h3>Conhecimento da minha profissão de marítimo</h3>
-
-
-            <li>Inglês Fluente\Espanhol Básico</li>
-            <li>Conhecimento de relações humanas interpessoais (RIT)</li>
-            <li>Conhecimentos de circuitos de alta voltagem </li>
-            <li>Combate a Incêndio avançado</li>
-            <li>Manutenção do sistema de posicionamento dinâmico</li>
-            <li>Embarcacões de resgate Rápido</li>
-            <li>Curso de sobrevivência</li>
-        </ul>
-    </div>
-    </ul>
-    <br>
-    <hr>
-    <footer>
-        <a href="http://127.0.0.1:5500/daniel%20foto%20perfil.jpeg">Este é o link para minha foto</a>
-
-        <a href="https://github.com/danielmorais1993">Meu Github</a>
-
-
-        <a href="https://github.com/danielmorais1993/Trybe-Exercicios">Repositorio de exercicios</a>
-    </footer>
+        <section id="pictures"> 
+            <div class="projects project1">1</div>
+             <div class="projects project2 clickable"><a href="https://www.linkedin.com/in/daniel-morais-de-oliveira-bb3434240/">Sobre mim</a>            
+            </div>
+            <div class="projects project3 clickable"><a href="https://danielmorais1993.github.io/Trybewarts/"></a>TrybeWarts</div>
+            <div class="projects project4 clickable"><a href="https://danielmorais1993.github.io/TrybeShopping/"></a>TrybeShopping</div>
+            <div class="projects project5 clickable"><a href="https://danielmorais1993.github.io/react-gh-pages/"></a>SolarSystem</div>
+            <div class="projects project6">6</div>
+        </section>
+    <script src="script.js"></script>
 </body>
-
 </html>
