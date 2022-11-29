@@ -168,6 +168,13 @@ h1{
   .project6 {
     background: limegreen;
   }
+  .project6:hover{
+    background-image: url('images logo/Captura de Tela 2022-11-27 às 15.58.50.png');
+    background-position:center center ;
+    background-size: cover;
+    transition: 1s;
+  }
+  
   .project2 {
     background: coral;
   }
